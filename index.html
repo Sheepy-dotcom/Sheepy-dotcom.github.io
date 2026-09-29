@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Milo Treasure Tunnels</title>
+<meta name="description" content="A digging game for children. Dig up treasure, dinosaur bones and eggs to hatch.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --paper: #fdfaf4; --ink: #241d16; --muted: #5d5347; --rule: #e3dbcc; --accent: #8a6a2f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #17120d; --ink: #f0e7d8; --muted: #b0a493; --rule: #372c20; --accent: #e2b254;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #17120d; --ink: #f0e7d8; --muted: #b0a493; --rule: #372c20; --accent: #e2b254;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 72px 16px 96px;
+    background: var(--paper); color: var(--ink);
+    font: 17px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 34rem; margin: 0 auto; }
+  h1 { font-size: 2.1rem; line-height: 1.15; margin: 0 0 .3em; }
+  .lede { font-size: 1.1rem; }
+  ul { padding-left: 1.2em; color: var(--muted); }
+  li { margin: .35em 0; }
+  a { color: var(--accent); }
+  nav { margin-top: 2.5em; padding-top: 1.5em; border-top: 1px solid var(--rule); }
+  footer { color: var(--muted); font-size: .88rem; margin-top: 2.5em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Milo Treasure Tunnels</h1>
+  <p class="lede">
+    A digging game for children. Dig down with Milo the mole, bring back treasure,
+    dinosaur bones and eggs to hatch, and fill a museum with what you find.
+  </p>
+  <ul>
+    <li>Twenty-four places to dig, across six chapters.</li>
+    <li>Eleven dinosaur skeletons to piece together.</li>
+    <li>Seventeen eggs, and the pets that come out of them.</li>
+    <li>No account, no chat, and nothing a child can buy on their own.</li>
+  </ul>
+
+  <nav>
+    <p><a href="privacy.html">Privacy policy</a></p>
+    <p>Questions: <a href="mailto:sheepydotcom@gmail.com">sheepydotcom@gmail.com</a></p>
+  </nav>
+
+  <footer>Android package <code>com.treasuretunnels.game</code></footer>
+</main>
+</body>
+</html>

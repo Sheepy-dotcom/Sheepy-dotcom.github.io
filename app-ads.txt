@@ -1,0 +1,18 @@
+# Authorised digital sellers for Milo Treasure Tunnels (com.treasuretunnels.game).
+#
+# This file only works from the ROOT of the hostname on the Play listing.
+# AdMob's crawler takes the hostname and fetches exactly one address:
+#
+#     https://sheepy-dotcom.github.io/app-ads.txt
+#
+# A GitHub *project* page (github.io/Some-Repo/) can never serve that, because
+# the root belongs to the *user* page - a repository named exactly
+# Sheepy-dotcom.github.io. This file, index.html and privacy.html all live in
+# that repository, which is why the developer website on the listing is the
+# bare root rather than a subfolder.
+#
+# Without this file nothing breaks: buyers that require authorised sellers
+# simply stop bidding, which costs money quietly. AdMob's own app-ads.txt page
+# shows the authoritative line; it should match the one below.
+
+google.com, pub-6530729317099475, DIRECT, f08c47fec0942fa0
